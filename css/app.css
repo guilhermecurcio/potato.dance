@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+#app {
+    padding: 0px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#potato-dance {
+    width: 100%;
+}
+
+#player {
+    position: fixed;
+    top: 0;
+    background-color: black;
+    color: white;
+    display: none;
+    border-radius: 0px 4px 4px 0px;
+    opacity: 0.30;
+}
+
+#player:hover {
+    opacity: 1;
+}
+
+#player ul {
+    list-style-type: none;
+    margin-top: 16px;
+    padding-right: 40px;
+}
+
+.fa-play, .fa-stop {
+    cursor: pointer;
+}

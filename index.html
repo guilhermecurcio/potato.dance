@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+        <title>Potato.Dance</title>
+
+        <link href='./node_modules/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet' />
+        <link href='./node_modules/font-awesome/css/font-awesome.min.css' rel='stylesheet' />
+        <link href='./css/app.css' rel='stylesheet' />
+    </head>
+    <body>
+        <div id='app' class='container-fluid'></div>
+        <div id='player' >
+            <ul>
+                <li class='title'><strong>Playlist</strong></li>
+                <li>Pinkfong - Baby Shark.mp3 <i data-audio='audio/pinkfong-baby-shark.mp3' class='fa fa-play'></i></li>
+                <li>J.Geco - Chicken Song.mp3 <i data-audio='audio/jgeco-chicken-song.mp3' class='fa fa-play'></i></li>
+                <li>Amigovos - O Pintinho Piu.mp3 <i data-audio='audio/amigovos-o-pintinho-piu.mp3' class='fa fa-play'></i></li>
+                <li><strong>Playing:&nbsp;&nbsp;&nbsp;</strong><span class='playing'>None :(</span></li>
+            </ul>
+        </div>
+
+        <script src='./node_modules/jquery/dist/jquery.min.js' ></script>
+        <script src='./node_modules/bootstrap/dist/js/bootstrap.min.js' ></script>
+        <script src='./node_modules/p5/lib/p5.min.js' ></script>
+        <script src='./node_modules/p5/lib/addons/p5.sound.min.js' ></script>
+        <script src='./js/app.js' ></script>
+    </body>
+</html>
